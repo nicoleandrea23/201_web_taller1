@@ -1,0 +1,39 @@
+.mainbanner{
+    width: 100%;
+    display: flex;
+
+
+.mainbanner__banner{
+    width: 100%;
+}
+
+.mainbanner__text{
+    font-family: $second-font-family;
+    color:black;
+ 
+}
+
+.mainbanner__container{
+    position:absolute;
+    margin-left: 50px;
+    font-size: 300%;
+    text-align: center;
+    width: 598px;
+    height: 195px;
+    top: 270px;
+   
+
+}
+.mainbanner__button{
+    position:absolute;
+    top: 220px;
+    padding: 20px 30px;
+    left: 40%;
+    font-family: $primary-font-family;
+    font-size: $font-size;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border: none;
+}}

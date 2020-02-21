@@ -1,0 +1,167 @@
+@font-face {
+  font-family: piedra;
+  src: url("/recursos/Piedra-Regular.ttf");
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body, html {
+  margin: 0px;
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-size: 16px;
+}
+
+.container {
+  max-width: 100%;
+  margin: 0px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0px 8px;
+}
+
+.mainheader {
+  background-color: white;
+  padding: 20px 0px;
+}
+
+.mainheader__container {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.mainheader__logo {
+  width: 146px;
+}
+
+.mainheader__link {
+  color: black;
+  text-decoration: none;
+  margin-left: 25px;
+  font-size: .8em;
+}
+
+.mainheader__nav {
+  margin: auto;
+  width: 100%;
+}
+
+.mainheader__mainnav {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.mainbanner {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.mainbanner .mainbanner__banner {
+  width: 100%;
+}
+
+.mainbanner .mainbanner__text {
+  font-family: "piedra";
+  color: black;
+}
+
+.mainbanner .mainbanner__container {
+  position: absolute;
+  margin-left: 50px;
+  font-size: 300%;
+  text-align: center;
+  width: 598px;
+  height: 195px;
+  top: 270px;
+}
+
+.mainbanner .mainbanner__button {
+  position: absolute;
+  top: 220px;
+  padding: 20px 30px;
+  left: 40%;
+  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-size: 16px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border: none;
+}
+
+.mainfooter {
+  background-color: white;
+  padding: 20px 0px;
+}
+
+.mainfooter__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.mainfooter__socialMedia {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 280px;
+}
+
+.mainfooter__logos {
+  padding: 0px 45px;
+  margin: 10px 0px;
+}
+
+.mainfooter__malibu {
+  margin: 30px 0px;
+}
+
+.mainfooter__redes {
+  padding: 0px 3px;
+}
+
+.mainfooter__information {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 30%;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.mainfooter__links {
+  text-decoration: none;
+  color: black;
+  font-size: .8em;
+}
+
+.mainpublicity {
+  width: 100%;
+}
+
+.mainpublicity__top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.mainpublicity__top img {
+  width: 50%;
+}
+/*# sourceMappingURL=main.css.map */
