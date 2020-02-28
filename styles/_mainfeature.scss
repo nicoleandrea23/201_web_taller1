@@ -1,0 +1,114 @@
+.mainfeature{
+    background-image: url("../images/fondofrutas.png");
+    width: 1440px;
+    height: 953.75px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.mainfeature__tittle{
+
+    font-size: 40px;
+    font-family: $second-font-family;
+    margin: 30px auto;
+    
+}
+
+.mainfeature__containers{
+    display: flex;
+    flex-direction: row;
+    margin: 50px auto 100px;
+
+}
+
+.mainfeature__info{
+
+    width: 230px;
+    height: 418px;
+    background: #A3BF55;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 18px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.mainfeature__info--orange{
+    background:#FFAE0F;
+}
+
+.mainfeature__info--pink{
+    background: #FF7AD5;
+}
+
+.mainfeature__text--tittle{
+    color: white;
+    margin: 90px 0px 0px 0px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.mainfeature__circle{
+    background-color: #577400;
+    width: 140px;
+    height: 140px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    z-index: 1;
+    margin-top: -60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainfeature__circle--orange{
+    background-color:#C18101;
+    width: 140px;
+    height: 140px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    z-index: 1;
+    margin-top: -60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainfeature__circle--pink{
+    background-color:#CF51A8;
+    width: 140px;
+    height: 140px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    z-index: 1;
+    margin-top: -60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainfeature__text{
+   margin: 40px 0px 15px 15px;
+}
+
+.mainfeature__icono{
+    width: 45px;
+}
+
+
+.mainfeature__icono--orange{
+    width: 65px;
+}
+
+.mainfeature__icono--pink{
+    width: 55px;
+}
