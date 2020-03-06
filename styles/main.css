@@ -364,4 +364,59 @@ body, html {
 .mainfeature__icono--pink {
   width: 55px;
 }
+
+.mainsubscribe {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #FAAA0C;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.mainsubscribe__tittle {
+  font-family: "piedra";
+  color: white;
+  font-size: 30px;
+}
+
+.mainsubscribe__input {
+  border: none;
+  width: 543px;
+  height: 53px;
+  padding: 0px 20px;
+}
+
+.mainsubscribe__input::-webkit-input-placeholder {
+  color: lightgray;
+}
+
+.mainsubscribe__input:-ms-input-placeholder {
+  color: lightgray;
+}
+
+.mainsubscribe__input::-ms-input-placeholder {
+  color: lightgray;
+}
+
+.mainsubscribe__input::placeholder {
+  color: lightgray;
+}
+
+.mainsubscribe__button {
+  background: #DB4639;
+  border: none;
+  color: white;
+  width: 80px;
+  height: 53px;
+}
+
+.mainsubscribe__container {
+  margin: 0px 0px 50px;
+}
 /*# sourceMappingURL=main.css.map */
