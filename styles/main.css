@@ -1,6 +1,6 @@
 @font-face {
   font-family: piedra;
-  src: url("/recursos/Piedra-Regular.ttf");
+  src: url("../recursos/Piedra-Regular.ttf");
 }
 
 * {
