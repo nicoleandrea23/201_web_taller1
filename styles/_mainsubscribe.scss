@@ -26,11 +26,20 @@
     background: #DB4639;
     border: none;
     color: white;
-    width: 80px;
+    width: 90px;
     height: 53px;
     
 }
 
 .mainsubscribe__container{
     margin: 0px 0px 50px;
+}
+@media (max-width: $breakpoint-sm){
+
+    .mainsubscribe__container{
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        }
 }

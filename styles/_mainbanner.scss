@@ -10,7 +10,7 @@
 
 .mainbanner__text{
     font-family: $second-font-family;
-    color:black;
+    color:white;
 }
 
 .mainbanner__container{
@@ -34,4 +34,26 @@
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
     border: none;
+}
+
+@media (max-width: $breakpoint-sm){
+
+  .mainbanner__text{
+        font-size: 20px;
+        margin-right: 180px;
+        width: 180px;
+        height: 80px;
+
+    }
+    .mainbanner__container{
+        width: 180px;
+        height: 80px; 
+    }
+    .mainbanner__button{
+        padding: 10px 20px;
+        font-size: 10px;
+        top: 110px;
+        left: 50px; 
+    }
+
 }

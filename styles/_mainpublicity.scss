@@ -44,4 +44,24 @@ width: 100%;
     right: 100px;
    
 }
-}
+
+
+@media (max-width: $breakpoint-sm){
+
+    &__text1{
+         font-size: 20px;
+         right: 80px;  
+      }
+    &__text2{
+        font-size: 40px;
+        right: 110px;
+        top: 50px;
+     }
+     &__text3{
+        font-size: 25px;
+        bottom: 70px;
+        right: 73px;
+     }
+    }
+  }
+
